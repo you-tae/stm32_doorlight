@@ -41,7 +41,7 @@ void app()
 		// 거리에 따라 LED켜기
 		if(distance <= 5)
 		{
-			timeoutDoor = 10000;
+			timeoutDoor = 5000;
 			HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, 1);
 		}
 
