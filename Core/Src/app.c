@@ -37,6 +37,7 @@ void app()
 	{
 		//초음파 값 읽기
 		uint16_t distance = getDistance();
+		// color branch입니다.
 
 		// 거리에 따라 LED켜기
 		if(distance <= 5)
